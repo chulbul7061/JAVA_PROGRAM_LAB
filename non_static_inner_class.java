@@ -1,6 +1,7 @@
-import non_static_innerclass.Biscuits;
+//import non_static_innerclass.Biscuits;
 
-public class non_static_innerclass {
+class non_static_innerclass
+ {
     int x=5;
     class Biscuits{
         public void show_x()
@@ -17,5 +18,6 @@ class Test
         non_static_innerclass obj=new non_static_innerclass();
         non_static_innerclass.Biscuits obj2=obj.new Biscuits();
         obj2.show_x();
+        
     }
 }
